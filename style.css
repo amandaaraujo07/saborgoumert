@@ -1,0 +1,153 @@
+/*PÁGINA INICIAL*/
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif; /* Corrigido para 'font-family' */
+}
+
+header {
+    background-color: #c49f64;
+    display: flex;
+    height: 15vh;
+    /* padding: 20px;
+    margin: 0; */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Espaço entre a logo e o título */
+}
+
+strong {
+    font-size: 20px;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.logo {
+    height: 80px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+.titulo {
+    flex-grow: 1; /* Faz o título ocupar o espaço restante */
+    padding: 10px;
+    font-size: 13px;
+}
+
+.imagem-container {
+    width: 100%; 
+    height: 0;
+    padding-bottom: 16.67%;
+    position: relative;
+}
+
+.imagem-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 3-px;
+    color: rgb(75, 42, 9);
+}
+
+.lugar {
+    width: 800px;
+    position: center;
+    padding: 10px;
+    display: flex;
+}
+
+/*MENU*/
+
+/*CONTATO*/
+.informacao{
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(75, 42, 9);
+}
+
+.informacoes {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.map-container {
+    text-align: center;
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+}*/
+
+/*RESERVAS*/
+.reservas {
+    text-align: center;
+    color: rgb(75, 42, 9);
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 10px;
+    justify-content: center;
+}
+
+section {
+    background-color: #d7c6ad;
+    padding:10px; 
+    display: flex; 
+    width: 650px;
+}
+
+.reservas2 {
+    display: flex; 
+    justify-content: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 18px;  
+}
+
+.informacoes2 {
+    display: flex;
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: flex-start;    /* Alinha os itens ao centro na vertical */
+}
+
+.informacoes img {
+    width: 32px;
+    vertical-align: middle; /* Alinha as imagens ao centro verticalmente */
+    margin-right: 10px; /* Adiciona um pequeno espaço entre a imagem e o texto */
+}
+
+.informacoes p {
+    display: flex;        /* Aplica flexbox para cada linha */
+    align-items: center;  /* Alinha as imagens e o texto ao centro na vertical */
+    margin: 5px 0;        /* Adiciona uma margem em cima e embaixo do parágrafo */
+}
