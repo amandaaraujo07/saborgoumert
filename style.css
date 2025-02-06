@@ -12,8 +12,6 @@ header {
     background-color: #c49f64;
     display: flex;
     height: 15vh;
-    /* padding: 20px;
-    margin: 0; */
     align-items: center; /* Alinha os itens verticalmente no centro */
     justify-content: space-between; /* Espaço entre a logo e o título */
 }
@@ -35,6 +33,51 @@ nav li{
 nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+
+}
+
+.botao-paginas {
+    background-color: #a87940;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-paginas1 {
+    background-color: #a87940;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-paginas2 {
+    background-color: #a87940;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-paginas3 {
+    background-color: #a87940;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-paginas:hover {
+    background-color: #ccc;
+}
+
+.botao-paginas1:hover {
+    background-color: #ccc;
+}
+
+.botao-paginas2:hover {
+    background-color: #ccc;
+}
+
+.botao-paginas3:hover {
+    background-color: #ccc;
 }
 
 .logo {
@@ -49,46 +92,114 @@ nav a{
     font-size: 13px;
 }
 
-.imagem-container {
-    width: 100%; 
-    height: 0;
-    padding-bottom: 16.67%;
-    position: relative;
-}
-
-.imagem-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-p {
-    font-size: 20px;
+h3 {
     padding: 10px;
-}
-
-h2 {
-    padding: 10px;
-    font-size: 3-px;
     color: rgb(75, 42, 9);
+    font-size: 25px;
 }
 
-.lugar {
-    width: 800px;
-    position: center;
-    padding: 10px;
+.banner {
+    background: url('/Imagens/inicial1.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descricao1 {
     display: flex;
+    padding: 20px 50px;
+}
+
+.descricao1 h2 {
+    font-size: 24px;
+}
+
+.descricao1 p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.descricao1 img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-top: 20px;
 }
 
 /*MENU*/
+.cardapio {
+    text-align: center;
+    color: rgb(75, 42, 9);
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 25px;
+    justify-content: center;
+}
 
+.menu {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: rgb(75, 42, 9);
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgb(113, 86, 51);
+}
+
+.menu-item img {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.menu-item-content {
+    flex: 1;
+}
+
+.menu-item-content h4 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(113, 86, 51);
+}
+
+.menu-item-content p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 18px;
+}
+
+.menu-item-price {
+    font-size: 20px;
+    color: #
+}
+
+/*  
 /*CONTATO*/
 .informacao{
     padding: 5px;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     color: rgb(75, 42, 9);
 }
@@ -108,19 +219,69 @@ iframe {
     max-width: 800px;
     height: 450px;
     border: none;
-}*/
+}
 
 /*RESERVAS*/
-.reservas {
+.reservas h3 {
     text-align: center;
     color: rgb(75, 42, 9);
     font-family: 'Times New Roman', Times, serif;    
-    font-size: 10px;
+    font-size: 25px;
     justify-content: center;
 }
 
+/* main {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+} */
+
+.form-container {
+    width: 400px;
+    margin: auto;
+    background: url('fundo.jpg') center/cover no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c0975d;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #c0975d;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a87940;
+}
+
 section {
-    background-color: #d7c6ad;
+    background-image: url("/Imagens/fotofundoo.png");
     padding:10px; 
     display: flex; 
     width: 650px;
@@ -151,3 +312,22 @@ section {
     align-items: center;  /* Alinha as imagens e o texto ao centro na vertical */
     margin: 5px 0;        /* Adiciona uma margem em cima e embaixo do parágrafo */
 }
+
+/* input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+} */
+
+/* button {
+    margin-top: 15px;
+    padding: 10px;
+    /* background-color: #c49f64; */
+    /* color: #c49f64;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
