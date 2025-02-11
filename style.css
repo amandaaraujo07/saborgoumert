@@ -279,8 +279,8 @@ form label {
 
 form input, form textarea {
     width: 100%; 
-    padding: 10px; /
-    margin-bottom: 15px; /* Adiciona um espaço inferior entre os campos */
+    padding: 10px; 
+    margin-bottom: 15px; 
     border: 1px solid rgb(75, 42, 9); /* Deixa a borda com cor */
     border-radius: 8px; 
     background: #f5ece1; 
