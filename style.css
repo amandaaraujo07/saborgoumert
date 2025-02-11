@@ -239,6 +239,12 @@ iframe {
     margin: 5px 0; /* Adiciona uma margem em cima e embaixo do parágrafo */
 }
 
+.botoes-contato a img {
+    width: 65px;
+    height: 65px;
+    padding: 20px;
+}
+
 /*RESERVAS*/
 .reservas h3 {
     text-align: center;
